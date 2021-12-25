@@ -20,3 +20,18 @@ username=kim&age=20
 
 1. 저장 : ```request.setAttribute(name,value)```
 2. 조회 : ```requset.getAttribute(name)```
+
+### 세션 관리 기능
+```requset.getSession(create:true) ```
+
+## 중요
+```HttpServletRequest``` , ```HttpServletResponse``` HTTP 스펙이 제공하는 요청을 편리하게 사용하려는 목적이 더 큼, 응답메시지 자체를 이해해야함
+
+### GET 쿼리 파라미터
+메세지 바디 없이 URL에 쿼리파라미터에 데이터를 포함해서 전달
+/url?username=kim&age=20
+### POST - HTML Form
+content-type : application/x-www-form-urlencoded
+메세지 바디에 쿼리 파라미터 형식으로 전달 
+username=hello&age=2
+### HTTP message body에 데이터를 직접 담아서 
