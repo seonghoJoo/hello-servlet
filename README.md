@@ -35,3 +35,10 @@ content-type : application/x-www-form-urlencoded
 메세지 바디에 쿼리 파라미터 형식으로 전달 
 username=hello&age=2
 ### HTTP message body에 데이터를 직접 담아서 
+***
+## HttpServletResponse
+### HTTP 응답메세지 생성
+1. HTTP 응답코드 지정
+2. 헤더 생성
+3. 바디 생성
+4. 편의기능 제공 Content-type, 쿠키, Redirect
