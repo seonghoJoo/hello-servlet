@@ -18,5 +18,5 @@ username=kim&age=20
 ### 임시 저장소 기능
 해당 HTTP 요청이 시작부터 끝날때 까지 유지되는 임시저장소 기능
 
-1. 저장 : request.setAttribute(name,value)
-2. 조회 : requset.getAttribute(name)
+1. 저장 : ```request.setAttribute(name,value)```
+2. 조회 : ```requset.getAttribute(name)```
