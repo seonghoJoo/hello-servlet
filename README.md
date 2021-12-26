@@ -36,7 +36,7 @@ content-type : application/x-www-form-urlencoded
 username=hello&age=2
 ### HTTP message body에 데이터를 직접 담아서 
 ***
-## HttpServletResponse
+## HttpServletResponse 역할
 ### HTTP 응답메세지 생성
 1. HTTP 응답코드 지정
 2. 헤더 생성
