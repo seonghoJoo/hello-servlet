@@ -1,5 +1,10 @@
 # hello-servlet
 
+## Servlet이 뭐냐
+클라이언트의 요청을 처리하고, 그 결과를 반환하는 
+Servlet 클래스의 구현 규칙을 지킨 자바 웹 프로그래밍 기술
+흔히 MVC에선 contrller라고 보면 됨
+
 ## HttpRequest 역할
 
 HTTP 요청 메세지를 개발자가 직접 파싱해서 사용해도 되지만 매우 불편함. 
