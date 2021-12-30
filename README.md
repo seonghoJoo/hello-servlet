@@ -56,6 +56,6 @@ Forward 요청 1번 응답 1번
 3. 핸들러 어댑터 실행 
 4. 핸들러 어댑터를 통해 핸들러 실행
 5. ModelAndView 반환
-6. viewResolver 호출
+6. viewResolver 호출 JSP 경우 InternalResourceViewResolver가 자동 등록되고 
 7. View 반환
-8. View 
+8. View 렌더링
