@@ -42,3 +42,20 @@ username=hello&age=2
 2. 헤더 생성
 3. 바디 생성
 4. 편의기능 제공 Content-type, 쿠키, Redirect
+
+
+### Redirect vs Forward
+Redirect 응답이 실제로 클라이언트로 나감 요청 2번 응답 2번 
+대표번호 전화 -> 안내원 -> ```여기로 전화하세요~``` -> 전화 끊고 -> 목적지와 통화
+Forward 요청 1번 응답 1번
+대표번호 전화 -> 안내원 -> ```연결해드리겠습니다.``` -> 목적지와 통화
+
+### DispatcherServlet.doDispatch()
+1. 핸들러 조회
+2. 핸들러 어댑터 조회 - 핸들러를 처리할 수 있는 어댑터
+3. 핸들러 어댑터 실행 
+4. 핸들러 어댑터를 통해 핸들러 실행
+5. ModelAndView 반환
+6. viewResolver 호출 JSP 경우 InternalResourceViewResolver가 자동 등록되고 
+7. View 반환
+8. View 렌더링
